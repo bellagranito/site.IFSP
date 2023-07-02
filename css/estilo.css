@@ -24,8 +24,8 @@
     background-color: #195128;
     width: 100%;
     max-width: 290px;
-    margin-bottom: 8rem;
-    height: 90vw;
+    height: 50vw;
+    
   }
    .links li{
     margin: 20px;
@@ -37,7 +37,7 @@
     font-size: 32px;
   }
   .menu ul li a:hover{
-    background-color: #bbbbbb50;
+    background-color: #ffffff50;
     width: 100%;
   }
 
@@ -51,14 +51,34 @@
     color: #248817;
     text-align: center;
     font-size: 40px;
-    margin: 10px;
+    margin-right: 200px;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 35px;
   }
 
   .texto-principal img{
-    margin-left: 120px;
+    margin-left: 315px;
     margin-top: 30px;
   }
+
+  .tabela{
+    margin-top: 30px;
+    background-color: #248817;
+    text-align: justify;
+    width: auto;
+    color:#ffffff;
+    font-size: 25px;
+    margin-right: 150px;
+}
+
+.rodape {
+  background-color:#195128;
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 1vw;
+  padding: 30px;
+
+}
 
