@@ -55,6 +55,7 @@
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 35px;
+    margin-bottom: 25px;
   }
 
   .texto-principal img{
@@ -64,10 +65,10 @@
 
   .tabela{
     margin-top: 30px;
-    background-color: #248817;
+    background-color: #d5f7d0;
     text-align: justify;
     width: auto;
-    color:#ffffff;
+    color:#000000;
     font-size: 25px;
     margin-right: 150px;
 }
@@ -81,4 +82,16 @@
   padding: 30px;
 
 }
+
+.texto-principal h3{
+  font-family: "Arial";
+  color: #248817;
+  text-align: center;
+  font-size: 35px;
+  margin-right: 200px;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
 
