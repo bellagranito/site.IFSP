@@ -1,10 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: green;
+    background-color: #17882c;
     padding: 20px 20px;
   }
-  
-  
+
+  .caixa_pesquisa input{
+    padding: 8px;
+    border: none;
+  }
+  .caixa_pesquisa input::placeholder{
+    color: #195128;
+  }
+  .menu{
+    background-color: #195128;
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 8rem;
+    height: 90vw;
+  }
+   .links li{
+    margin: 20px;
+    list-style: none;
+   }
+  .menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+  }
+  .menu ul li a:hover{
+    background-color: #bbbbbb50;
+    width: 100%;
+  }
+
+  .flex{
+    display: flex;
+    gap: 100px;
+  }
+
+  .texto-principal h1{
+    font-family: "Arial";
+    color: #248817;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 35px;
+  }
+
+  .texto-principal img{
+    margin-left: 120px;
+    margin-top: 30px;
+  }
+
